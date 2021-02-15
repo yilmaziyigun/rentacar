@@ -10,3 +10,15 @@ C:\Users\Yılmaz\source\repos\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\
 C:\Users\Yılmaz\source\repos\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\Yılmaz\source\repos\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\Yılmaz\source\repos\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yılmaz\\source\\repos\\ReCapProject1\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Yılmaz\\Documents\\GitHub\\rentacar\\ReCapProject1\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Yılmaz\\source\\repos\\ReCapProject1\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Yılmaz\\Documents\\GitHub\\rentacar\\ReCapProject1\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Yılmaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yılmaz\\source\\repos\\ReCapProject1\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Yılmaz\\Documents\\GitHub\\rentacar\\ReCapProject1\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
