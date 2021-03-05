@@ -26,3 +26,5 @@ C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Business\bin\Debug\nets
 C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Business\bin\Debug\netstandard2.0\DataAccess.pdb
 C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Business\bin\Debug\netstandard2.0\Entities.pdb
 C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Business\bin\Debug\netstandard2.0\Core.pdb

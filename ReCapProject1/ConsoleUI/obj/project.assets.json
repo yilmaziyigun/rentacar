@@ -1705,10 +1705,24 @@
           "bin/placeholder/Business.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
@@ -1722,6 +1736,9 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -6175,6 +6192,11 @@
       "path": "../Business/Business.csproj",
       "msbuildProject": "../Business/Business.csproj"
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../../../myfinalproject/Core/Core.csproj",
+      "msbuildProject": "../../../myfinalproject/Core/Core.csproj"
+    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -6189,6 +6211,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Business >= 1.0.0",
+      "Core >= 1.0.0",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
@@ -6224,6 +6247,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "C:\\Users\\Yılmaz\\Documents\\GitHub\\myfinalproject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Yılmaz\\Documents\\GitHub\\myfinalproject\\Core\\Core.csproj"
+            },
             "C:\\Users\\Yılmaz\\Documents\\GitHub\\rentacar\\ReCapProject1\\Business\\Business.csproj": {
               "projectPath": "C:\\Users\\Yılmaz\\Documents\\GitHub\\rentacar\\ReCapProject1\\Business\\Business.csproj"
             },

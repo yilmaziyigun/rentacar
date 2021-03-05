@@ -16,3 +16,6 @@ C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Entities\obj\Debug\nets
 C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
 C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Yılmaz\Documents\GitHub\rentacar\ReCapProject1\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
