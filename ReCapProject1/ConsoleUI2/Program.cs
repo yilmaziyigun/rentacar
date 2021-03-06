@@ -29,7 +29,7 @@ namespace ConsoleUI2
             brandManager.Add(brand3);*/
             // brandManager.Delete(brand2);
             // brandManager.Update(brand3);
-            foreach (var branddetail in brandManager.GetAll())
+            foreach (var branddetail in brandManager.GetAll().Data)
             {
                 Console.WriteLine(branddetail.BrandName);
             }
@@ -44,7 +44,7 @@ namespace ConsoleUI2
             // colorManager.Add(color2);
             //  colorManager.Delete(color);
            // colorManager.Update(new Color { Id = 6, ColorName = "Metalik Gri" });
-            foreach (var colorGetAll in colorManager.GetAll())
+            foreach (var colorGetAll in colorManager.GetAll().Data)
             {
                 Console.WriteLine(colorGetAll.Id + "/" + colorGetAll.ColorName);
             }
@@ -53,7 +53,7 @@ namespace ConsoleUI2
         private static void CarAllDetails(CarManager carManager)
         {
             Console.WriteLine(" TÜM ARAÇLAR ");
-            foreach (var car in carManager.GetAll())
+            foreach (var car in carManager.GetAll().Data)
             {//select*from
                 Console.WriteLine("Markası {0} Renk {1} Model Yılı {2} Günlük Fiyat {3} Açıklama {4}", car.BrandName, car.ColorId, car.ModelYear, car.DailyPrice, car.Description);
             }
@@ -62,7 +62,7 @@ namespace ConsoleUI2
         private static void CarBrandDetail(CarManager carManager)
         {
             Console.WriteLine("BrandId 1 olanlar");
-            foreach (var car in carManager.GetCarsByBrandId(1))
+            foreach (var car in carManager.GetAllByBrandId(1).Data)
             {//BrandId==1
                 Console.WriteLine("Markası {0} Renk {1} Model  {2} Günlük Fiyat {3} Açıklama {4}", car.BrandName, car.ColorId, car.ModelYear, car.DailyPrice, car.Description);
             }
@@ -71,7 +71,7 @@ namespace ConsoleUI2
         private static void CarColorDetail(CarManager carManager)
         {
             Console.WriteLine(" ColorId 2 olanlar ");
-            foreach (var car in carManager.GetCarsByColorId(2))
+            foreach (var car in carManager.GetAllByColorId(2).Data)
             {//ColorId==2
                 Console.WriteLine("Araç {0} model , {1} fiyatı {2}", car.BrandName, car.ModelYear, car.Description, car.DailyPrice);
             }
@@ -83,7 +83,7 @@ namespace ConsoleUI2
             CarManager carManageradd = new CarManager(new EfCarDal());
             carManageradd.Add(new Car { BrandId = 6, ColorId = 4, Id = 8, DailyPrice = 250, BrandName = "Hyundai", Description = "i40", ModelYear = 2021 });
             // carManager.Update(new Car { Id = 2, DailyPrice = 350, Description = "Dizel Sedan" });
-            foreach (var car in carManageradd.GetAll())
+            foreach (var car in carManageradd.GetAll().Data)
             {
                 Console.WriteLine("Markası {0} Renk {1} Model {2} Günlük Fiyat {3} Acıklaması {4}", car.BrandName, car.ColorId, car.ModelYear, car.DailyPrice, car.Description);
             }
